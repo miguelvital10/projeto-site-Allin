@@ -1,0 +1,12 @@
+@import "../css/reset/header.css";
+@import "../css/reset/footer.css";
+@import "../css/reset/reset.css";
+@import "../css/paginas/home.css";
+
+header.conteudo{
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+
+    background-color: white;
+}
