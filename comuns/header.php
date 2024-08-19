@@ -8,7 +8,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
-    <link rel="stylesheet" type="text/css" href="../recursos/css/main.css">
+    <link rel="stylesheet" type="text/css" href="../../projeto-site-Allin/recursos/css/main.css">
+    <link rel="shortcut icon" type="image/jpg" href="../../projeto-site-Allin/recursos/imagens/favicon.jpg"/>
     <title>All in - Treinamentos</title>
 </head>
 
@@ -42,7 +43,9 @@
                         <a href="https://w.app/MiguelArthur" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
                     </div>
                 </div>
-
+                <div class="nav-bar">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
             </div>
         </div>
     </header>

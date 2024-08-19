@@ -1,44 +1,135 @@
-header .conteudo{
+header .conteudo {
     width: 100%;
     display: inline-flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
-    padding: 20px 0px;
+    padding: 20px 20px;
 
 }
 
-header .conteudo .logo{
+header .conteudo .logo {
     width: 155px;
 }
 
-header .conteudo .menu-lateral{
-    width: calc(100% - 245px);
+header .conteudo .menu-lateral {
+    position: absolute;
+    left: calc(-100vw - 100px);
+    top: 0px;
+    width: calc(100vw - 100px);
+    height: 100vh;
     display: inline-flex;
-    justify-content: flex-end;    
+    justify-content: flex-start;
+    flex-direction: column;
+    background-color: #424242;
+    transition: .4s;
 }
 
-header .conteudo .menu-lateral .nav{
+header .conteudo .menu-lateral.active{
+    left: 0px;
+}
+
+
+header .conteudo .menu-lateral .nav {
     display: inline-flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 20px;
 }
 
-header .conteudo .menu-lateral .nav li{
-    margin-left: 90px;
+header .conteudo .menu-lateral .nav li {
+    position: relative;
+    padding: 10px 0px;
+    width: 100%;
 }
 
-header .conteudo .menu-lateral .nav li:first-child{
+header .conteudo .menu-lateral .nav li:after {
+    position: absolute;
+    bottom: 2px;
+    left: 0px;
+    width: 0px;
+    height: 3px;
+    background-color: #fff;
+    content: " ";
+    transition: .4s;
+}
+
+header .conteudo .menu-lateral .nav li:hover:after {
+    width: 100%;
+}
+
+header .conteudo .menu-lateral .nav li:first-child {
     margin-left: 0px;
 }
 
 
-header .conteudo .menu-lateral .redes-sociais{
-    width: max-content;
-    margin-left: 80px;
+header .conteudo .menu-lateral .redes-sociais {
+    width: 100%;
     display: inline-flex;
-    justify-content: flex-end;
-}
-i{
-    margin-left: 16px;
+    justify-content: center;
+    align-items: center;
 }
 
+header .conteudo .menu-lateral .redes-sociais a {
+    margin-left: 15px;
+}
+
+header .conteudo .menu-lateral .redes-sociais a i {
+    font-size: 20px;
+}
+
+header .conteudo .nav-bar {
+    width: 40px;
+    height: 40px;
+}
+
+header .conteudo .nav-bar i {
+    font-size: 40px;
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 1024px) {
+    header .conteudo .nav-bar {
+        display: none;
+    }
+
+    header .conteudo .menu-lateral {
+        width: calc(100% - 245px);
+        display: inline-flex;
+        justify-content: flex-end;
+        position: relative;
+        background-color: transparent;
+        flex-direction: row;
+        height: auto;
+        left: initial;
+        top: initial;
+    }
+
+    header .conteudo .menu-lateral .nav {
+        flex-direction: row;
+        padding: 0px;
+    }
+
+    header .conteudo .menu-lateral .nav li{
+        margin-left: 30px;
+        position: relative;
+        cursor: pointer;
+        width: max-content;
+    }
+    header .conteudo .menu-lateral .nav li:first-child{
+        margin-left: 0px;
+    }
+
+    header .conteudo .menu-lateral .redes-sociais {
+        width: max-content;
+        margin-left: 35px;
+    }
+}
+@media only screen and (min-width: 1300px) {
+    header .conteudo .menu-lateral .nav li{
+        margin-left: 90px;
+    }  
+    header .conteudo .menu-lateral .redes-sociais {
+        margin-left: 80px;
+    }
+}
