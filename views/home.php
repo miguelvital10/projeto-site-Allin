@@ -1,3 +1,26 @@
 <main>
-
+    <section class="quem-sou-eu">
+        <div class="container">
+            <div class="img">
+                <img src="../recursos/imagens/pessoa-banner.png" alt="">
+            </div>
+            <div class="texto">
+                <h2>Quem sou eu?</h2>
+                <div class="descricao">
+                    <p>
+                        Sou um empresário apaixonado por ajudar outros empreendedores a alcançarem o sucesso. 
+                        Ao longo dos anos, acumulei vasta experiência no gerenciamento de empresas e enfrentei muitos dos desafios que todo gestor encontra ao longo da jornada. 
+                        Meu objetivo é compartilhar esse conhecimento com empresários que buscam melhorar a gestão de seus negócios, otimizando processos,
+                        aumentando a eficiência e tomando decisões mais assertivas. Acredito que, com as ferramentas certas e a mentalidade adequada,
+                        qualquer empresa pode prosperar.
+                    </p>
+                    <p>
+                        Seja você um empreendedor iniciante ou alguém que já está no mercado há algum tempo, 
+                        estou aqui para ajudar a elevar sua empresa a um novo patamar.
+                    </p>
+                </div>
+                <a class="btn" href="#" target="_blank">Veja o vídeo</a>
+            </div>
+        </div>
+    </section>
 </main>
