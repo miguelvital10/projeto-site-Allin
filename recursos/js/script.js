@@ -1,3 +1,5 @@
 $(document).ready(function(){
-    alert("JQUERY ESTÁ FUNCIONANDO");
+    $('.nav-bar').on('click', function(){
+        alert('você clicou')
+    });
 });
