@@ -46,7 +46,7 @@
                     </div>
                 </div>
                 <div class="nav-bar">
-                    <i class="fa-solid fa-bars"></i>
+                    <i class="fa-solid fa-bars-staggered"></i>
                 </div>
             </div>
         </div>
