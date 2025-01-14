@@ -76,4 +76,35 @@
             </div>
         </div>
     </section>
+    <section class="cursos">
+        <div class="container">
+            <div class="conteudo">
+                <h2 class="titulo_principal">Nossos Cursos</h2>
+            </div>
+            <div class="itens">
+                <div class="item">
+                    <div class="img">
+                        <img src="../recursos/imagens/curso-pnl.png">
+                    </div>
+                    <h3 class="titulo">PNL - Programação Neuro Linguística</h3>
+                </div>
+                <div class="item">
+                    <div class="img">
+                        <img src="../recursos/imagens/curso-pnl.png">
+                    </div>
+                    <h3 class="titulo">Gestão de Empresas</h3>
+                </div><div class="item">
+                    <div class="img">
+                        <img src="../recursos/imagens/curso-pnl.png">
+                    </div>
+                    <h3 class="titulo">Saúde Financeira</h3>
+                </div><div class="item">
+                    <div class="img">
+                        <img src="../recursos/imagens/curso-pnl.png">
+                    </div>
+                    <h3 class="titulo">Recursos Humanos</h3>
+                </div>
+            </div>
+        </div>
+    </section>
 </main>
