@@ -52,3 +52,19 @@ table {
 *,*::before,*:after{
     box-sizing: border-box;
 }
+
+.btn{
+	width: max-content;
+	display: block;
+	margin: 0;
+	border: 2px solid #fff;
+	border-radius: 30px;
+	padding: 15px 40px;
+	line-height: 1;
+	transition: .4s;
+}
+
+.btn:hover{
+	background-color: #fff;
+	color: #000;
+}

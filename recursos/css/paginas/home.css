@@ -1,0 +1,62 @@
+.quem-sou-eu{
+        width: 100%;
+        display: block;
+        background-image: url('../../imagens/fundo-banner.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+
+}
+
+.quem-sou-eu .conteudo{
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.quem-sou-eu .conteudo .img{
+    width: 54%;
+}
+
+.quem-sou-eu .conteudo .img img{
+    width: auto;
+    max-width: 100%;
+}
+
+.quem-sou-eu .conteudo .texto{
+    width: 45%;
+    margin-left: -60px;
+}
+
+.quem-sou-eu .conteudo .texto h2{
+    font-size: 48px;
+    font-weight: 500;
+    font-style: italic;
+    margin-top: 65px;
+    position: relative;
+}
+
+.quem-sou-eu .conteudo .texto h2:after{
+    width: 150px;
+    height: 5px;
+    background-color: #fff;
+    position: absolute;
+    bottom: -12px;
+    left: 0;
+    content: ' ';
+}
+
+.quem-sou-eu .conteudo ,desricao{
+    margin-bottom: 60px;
+    width: 100%;
+    display: block;
+}
+
+.quem-sou-eu .conteudo ,desricao p{
+    line-height: 26px;
+    margin-bottom: 30px;
+    width: 1005;
+    display: block;
+}
