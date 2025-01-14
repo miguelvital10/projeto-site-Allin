@@ -25,4 +25,55 @@
            </div>
         </div>
     </section>
+    <section class="eventos">
+        <div class="container">
+            <div class="conteudo">
+                <h2 class="titulo_principal">Eventos</h2>
+                <div class="itens">
+                    <div class="item">
+                        <div class="texto">
+                            <h3>Título do evento 1 vem aqui</h3>
+                            <div class="descricao">
+                                <p>
+                                Neste evento presencial exclusivo para empresários e gestores, você aprenderá técnicas e estratégias práticas para aprimorar a gestão da sua empresa. 
+                                Abordaremos desde os principais desafios do mercado atual até soluções inovadoras para otimizar processos, reduzir custos e aumentar a rentabilidade.
+                                </p>
+                                <p>
+                                Além das palestras, haverá sessões de networking, 
+                                onde você poderá trocar experiências e construir parcerias com outros empresários de diversos setores.
+                                </p>
+                                <p>
+                                Participe de um evento transformador e esteja preparado para levar sua empresa ao próximo nível!
+                                </p>
+                            </div>
+                        </div>
+                        <div class="img">
+                            <img src="../recursos/imagens/galeria-eventos.png">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="texto">
+                            <h3>Título do evento 1 vem aqui</h3>
+                            <div class="descricao">
+                                <p>
+                                Neste evento presencial exclusivo para empresários e gestores, você aprenderá técnicas e estratégias práticas para aprimorar a gestão da sua empresa. 
+                                Abordaremos desde os principais desafios do mercado atual até soluções inovadoras para otimizar processos, reduzir custos e aumentar a rentabilidade.
+                                </p>
+                                <p>
+                                Além das palestras, haverá sessões de networking, 
+                                onde você poderá trocar experiências e construir parcerias com outros empresários de diversos setores.
+                                </p>
+                                <p>
+                                Participe de um evento transformador e esteja preparado para levar sua empresa ao próximo nível!
+                                </p>
+                            </div>
+                        </div>
+                        <div class="img">
+                            <img src="../recursos/imagens/galeria-eventos-2.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 </main>
