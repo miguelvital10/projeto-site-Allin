@@ -17,17 +17,20 @@
 }
 
 .quem-sou-eu .conteudo .img{
-    width: 54%;
+    width: 100%;
 }
 
 .quem-sou-eu .conteudo .img img{
     width: auto;
     max-width: 100%;
+    display: block;
+    margin: 0 auto  ;
 }
 
 .quem-sou-eu .conteudo .texto{
-    width: 45%;
-    margin-left: -60px;
+    width: 100%;
+    margin-top: -55px;
+    margin-bottom: 50px;
 }
 
 .quem-sou-eu .conteudo .texto h2{
@@ -59,4 +62,14 @@
     margin-bottom: 30px;
     width: 1005;
     display: block;
+}
+
+@media only screen and (min-width: 1024px) {
+    .quem-sou-eu .conteudo .img{
+        width: 54%;
+    }
+    .quem-sou-eu .conteudo .texto{
+        width: 45%;
+        margin-left: 0px 0px 0px -60px;
+    }
 }

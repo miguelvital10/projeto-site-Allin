@@ -1,3 +1,7 @@
+header{
+    position: relative;
+    z-index: 2;     
+}
 header .conteudo {
     width: 100%;
     display: inline-flex;
@@ -73,6 +77,7 @@ header .conteudo .menu-lateral .redes-sociais {
 header .conteudo .menu-lateral .redes-sociais a {
     margin-left: 15px;
 }
+
 
 header .conteudo .menu-lateral .redes-sociais a i {
     font-size: 20px;
