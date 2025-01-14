@@ -175,3 +175,61 @@
         order: 1;
     }
 }
+
+/* NOSSOS CURSOS*/
+
+.cursos{
+    width: 100%;
+    display: block;
+    background-image: url(../../imagens/fundo-cursos.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 120px 0px;
+}
+
+.cursos .conteudo .itens{
+    margin-top: 70px;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.cursos .conteudo .itens .item{
+    width: 100%;
+    display: block;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.cursos .conteudo .itens .item .img{
+    width: 100%;
+    display: block;
+}
+
+
+.cursos .conteudo .itens .item .img img{
+    width: 100%;
+    display: block;
+}
+
+.cursos .conteudo .itens .item .titulo{
+    width: 100%;
+    display: block;
+    padding: 20px;
+    position: absolute;
+    bottom: 0px;
+    font-size: 18px;
+}
+
+@media only screen and (min-width: 768px){
+    .cursos .conteudo .itens .item{
+        width: 48%;
+    }
+}
+
+@media only screen and (min-width: 1024px){
+    .cursos .conteudo .itens .item{
+        width: 24%;
+    }
+}
