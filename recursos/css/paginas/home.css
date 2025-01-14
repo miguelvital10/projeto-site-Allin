@@ -1,3 +1,4 @@
+/* BLOCO DE QUEM-SOU-EU */
 .quem-sou-eu{
         width: 100%;
         display: block;
@@ -51,16 +52,16 @@
     content: ' ';
 }
 
-.quem-sou-eu .conteudo ,desricao{
+.quem-sou-eu .conteudo .descricao{
     margin-bottom: 60px;
     width: 100%;
     display: block;
 }
 
-.quem-sou-eu .conteudo ,desricao p{
+.quem-sou-eu .conteudo .descricao p{
     line-height: 26px;
     margin-bottom: 30px;
-    width: 1005;
+    width: 100%;
     display: block;
 }
 
@@ -71,5 +72,106 @@
     .quem-sou-eu .conteudo .texto{
         width: 45%;
         margin-left: 0px 0px 0px -60px;
+    }
+}
+
+/* BLOCO DE EVENTOS */
+
+.eventos{
+    background-color: #fff;
+    padding: 115px 0px;
+    width: 100%;
+    display: block;
+}
+
+.eventos .conteudo{
+    width: 100%;
+    display: block;
+}
+
+.eventos .conteudo .itens{
+    width: 100%;
+    display: block;
+    margin-top: 70px;
+}
+
+.eventos .conteudo .itens .item{
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-bottom: 50px;
+}
+
+.eventos .conteudo .itens .item:last-child{
+    margin-bottom: 0px;
+}
+
+.eventos .conteudo .itens .item .img{
+    width: 100%;
+}
+
+.eventos .conteudo .itens .item .img img{
+    width: auto;
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.eventos .conteudo .itens .item .texto{
+    width: 100%;
+    margin-top: -50px;
+    margin-bottom: 50px;
+}
+
+.eventos .conteudo .itens .item .texto h3{
+    font-size: 24px;
+    font-weight: 500;
+    font-style: italic;
+    margin-top: 45px;
+    color: #000;
+    position: relative;
+}
+
+.eventos .conteudo .itens .item .texto h3:after{
+    width: 150px;
+    height: 5px;
+    background-color: #000;
+    position: absolute;
+    bottom: -12px;
+    left: 0;
+    content: ' ';
+}
+
+.eventos .conteudo .itens .item .descricao{
+    width: 100%;
+    display: block;
+}
+
+.eventos .conteudo .itens .item .descricao p{
+    line-height: 26px;
+    margin-bottom: 30px;
+    width: 100%;
+    display: block;
+    color: #000;
+}
+
+@media only screen and (min-width: 1024px){
+    .eventos .conteudo .itens .item .img{
+        width: 54%;
+    }
+    .eventos .conteudo .itens .item .texto{
+        width: 45%;
+        margin-left: 0px 0px 0px -60px;
+    }
+
+    .eventos .conteudo .itens .item:nth-child(2n+2) .img{
+        order: 0;
+    }
+
+    .eventos .conteudo .itens .item:nth-child(2n+2) .texto{
+        order: 1;
     }
 }

@@ -28,7 +28,7 @@
     <section class="eventos">
         <div class="container">
             <div class="conteudo">
-                <h2 class="titulo_principal">Eventos</h2>
+                <h2 class="titulo_principal black">Eventos</h2>
                 <div class="itens">
                     <div class="item">
                         <div class="texto">

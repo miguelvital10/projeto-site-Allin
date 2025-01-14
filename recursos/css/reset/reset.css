@@ -68,3 +68,31 @@ table {
 	background-color: #fff;
 	color: #000;
 }
+
+.titulo_principal{
+	font-size: 48px;
+	font-weight: 500;
+	font-style: italic;
+	display: block;
+	margin: 0 auto;
+	width: max-content;
+	position: relative;
+}
+
+.titulo_principal:after{
+	width: 100%;
+	height: 4px;
+	background-color: #fff;
+	position: absolute;
+	bottom: -10px;
+	left: 0px;
+	content: ' ';
+}
+
+.titulo_principal.black{
+	color: #000;
+}
+
+.titulo_principal.black:after{
+	background-color: #000;
+}
