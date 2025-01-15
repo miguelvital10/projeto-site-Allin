@@ -212,4 +212,22 @@
             </div>
         </div>
     </section>
+    <section class="contatos">
+        <div class="container">
+            <div class="conteudo">
+                <div class="form">
+                    <h2>Fale Comigo</h2>
+                    <form method="POST" action="#">
+                        <input type="text" placeholder="Nome" name="nome">
+                        <input type="text" placeholder="Telefone" name="telefone">
+                        <textarea placeholder="Mensagem" name="mensagem"></textarea>
+                        <button type="submit">Enviar Mensagem</button>
+                    </form>
+                </div> 
+                <div class="contato">
+                    <h2>Contatos</h2>
+                </div>
+            </div>
+        </div>
+    </section>
 </main>

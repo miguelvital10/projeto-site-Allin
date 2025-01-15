@@ -5,8 +5,10 @@ $(document).ready(function () {
   });
 
   $(".videos .itens").slick({
+    dots: true,
     centerMode: true,
     centerPadding: "60px",
+    autoplay: true,
     slidesToShow: 3,
     responsive: [
       {

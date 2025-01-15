@@ -256,6 +256,7 @@
 .videos .conteudo .itens .item{
     width: 100%;
     display: block;
+    padding: 0px 15px;
 }
 
 .videos .conteudo .itens .img{
@@ -275,6 +276,19 @@
     width: 70%;
     position: absolute;
     color: red;
+    background-color: #fff;
+    z-index: 1;
+}
+
+.videos .conteudo .itens .img i:after{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    content: ' ';
+    top: calc(50% - 15px);
+    left: calc(50% - 15px);
+    z-index: -1;
 }
 
 .videos .conteudo .itens .titulo{
