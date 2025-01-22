@@ -226,6 +226,22 @@
                 </div> 
                 <div class="contato">
                     <h2>Contatos</h2>
+                    <h3>Telefone:</h3>
+                    <a href="#">
+                        <i class="fab fa-whatsapp"></i> 
+                        +55 47 99999-9999 
+                    </a>
+                    <h3>Email:</h3>
+                    <a href="#">
+                        <i class="far fa-envelope"></i> 
+                        contato@allin.com.br
+                    </a>
+                    <h3>Siga-me:</h3>
+                    <div class="redes-sociais">
+                        <a href="https://www.instagram.com/miguel.vittal/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/miguel.vittal/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://w.app/MiguelArthur" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                    </div>
                 </div>
             </div>
         </div>
