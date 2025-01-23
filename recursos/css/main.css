@@ -1,7 +1,7 @@
-@import "../../../projeto-site-Allin/recursos/css/reset/reset.css";
-@import "../../../projeto-site-Allin/recursos/css/reset/header.css";
-@import "../../../projeto-site-Allin/recursos/css/main.css";
-@import "../../../projeto-site-Allin/recursos/css/reset/footer.css";
+@import 'paginas/home.css';
+@import 'reset/header.css';
+@import 'reset/footer.css';
+@import 'reset/reset.css';
 
 header.conteudo{
     width: 100%;

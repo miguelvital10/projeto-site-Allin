@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All in - Treinamentos</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -12,9 +13,8 @@
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="../recursos/js/script.js"></script>
-    <link rel="stylesheet" type="text/css" href="../../projeto-site-Allin/recursos/css/main.css">
-    <link rel="shortcut icon" type="image/jpg" href="../../projeto-site-Allin/recursos/imagens/favicon.jpg"/>
-    <title>All in - Treinamentos</title>
+    <link rel="stylesheet" type="text/css" href="../recursos/css/main.css">
+    <link rel="shortcut icon" type="image/jpg" href="../recursos/imagens/favicon.jpg"/>
 </head>
 
 <body>
